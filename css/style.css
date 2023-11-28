@@ -194,3 +194,22 @@ header {
 .bggradient h3{
     color: white;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8C330;
+    height: 285px;
+    text-align: center;
+}
+
+footer h1{
+    font-weight: 600;
+}
+
+ul img{
+    width: 22px;
+    margin-right: 10px;
+}
