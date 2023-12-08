@@ -52,6 +52,8 @@ header {
     justify-content: space-between;
 }
 
+
+
 .text-int h1 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
@@ -62,15 +64,19 @@ header {
     font-size: 30px;
     font-weight: 600;
     color: #075DD3;
+    margin-top: 47px;
 }
 
 .text-int h3 {
     font-size: 20px;
     font-weight: 600;
+    margin-top: 27px;
 }
+
 
 .lns img {
     height: 41px;
+    margin-top: 38px;
 }
 
 #aboutus {
@@ -82,6 +88,7 @@ header {
 #aboutus p {
     width: 567px;
     padding-top: 100px;
+    text-align: justify;
 }
 
 .principles {
@@ -138,6 +145,7 @@ header {
 
 .team p {
     width: 666px;
+    text-align: justify;
 }
 
 .team h3 {
@@ -162,22 +170,29 @@ header {
 }
 
 #educainvest{
+    margin-top: 77px;
     background-color: #F6F6F6;
     height: 699px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#educainvest h1{
+    font-weight: 600;
 }
 
 .bggradient{
     width: 1142px;
     height: 429px;
-    margin-top: 92px;
+    margin-top: 70px;
     align-items: center;
     justify-content: center;
     display: flex;
     gap: 78px;
     border-radius: 20px;
-    background: rgb(27,111,227);
+    background: #1b6fe3;
     background: linear-gradient(135deg, rgba(27,111,227,1) 0%, rgba(7,93,211,1) 24%, rgba(0,79,187,1) 100%);
 }
 
@@ -189,10 +204,24 @@ header {
 .bggradient p{
     width: 418px;
     color: white;
+    font-size: 25px;
 }
 
 .bggradient h3{
     color: white;
+}
+
+.bggradient button{
+    width: 160px;
+    height: 50px;
+    border-radius: 27px;
+    border-style: none;
+    color: #075DD3;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline;
+    float: right;
+    margin-top: 14px;
 }
 
 footer{
