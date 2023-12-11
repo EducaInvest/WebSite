@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz@6..12&display=swap');
 
 * {
@@ -13,6 +13,7 @@ html {
 
 body {
     padding-top: 80px;
+    overflow-x: hidden;
 }
 
 :target {
@@ -36,6 +37,10 @@ ul {
     font-weight: 500;
 }
 
+.nav-item a:hover{
+    border-bottom: solid 2px #3C3C3C;
+}
+
 header {
     background-color: #F8C330;
     height: 542px;
@@ -52,27 +57,27 @@ header {
     justify-content: space-between;
 }
 
+.text-int {
 
+    h1 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+    }
 
-.text-int h1 {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 600;
-    font-size: 50px;
+    h2 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #075DD3;
+        margin-top: 47px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 27px;
+    }
 }
-
-.text-int h2 {
-    font-size: 30px;
-    font-weight: 600;
-    color: #075DD3;
-    margin-top: 47px;
-}
-
-.text-int h3 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 27px;
-}
-
 
 .lns img {
     height: 41px;
@@ -83,12 +88,20 @@ header {
     height: 713px;
     padding-left: 80px;
     padding-right: 80px;
-}
+    align-items: center;
+    margin-top: 130px;
 
-#aboutus p {
-    width: 567px;
-    padding-top: 100px;
-    text-align: justify;
+    p {
+        width: 567px;
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .principles {
@@ -104,19 +117,23 @@ header {
 .card {
     margin-top: 75px;
     align-items: center;
-}
 
-.card-body {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 24px;
+    h5 {
+        font-weight: 600;
+        font-size: 20px;
+    }
 
-}
+    p{
+        font-size: 18px;
+    }
 
-.card-body h5 {
-    font-weight: 600;
+    .card-body {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px; 
+    }
 }
 
 .bottom-effect {
@@ -139,37 +156,42 @@ header {
     padding-top: 73px;
 }
 
-.team{
+.team {
     row-gap: 101px;
+
+    h3 {
+        color: #075DD3;
+        font-weight: 600;
+    }
+
+    h4 {
+        color: #7B7B7B;
+        font-weight: 500;
+    }
+
+    p {
+        width: 666px;
+        text-align: justify;
+        font-size: 18px;
+        font-style: italic; 
+        font-weight: 500; 
+        color:rgb(77, 77, 77);
+    }
+
 }
 
-.team p {
-    width: 666px;
-    text-align: justify;
-}
-
-.team h3 {
-    color: #075DD3;
-    font-weight: 600;
-}
-
-.team h4 {
-    color: #7B7B7B;
-    font-weight: 500;
-}
-
-.social-media{
+.social-media {
     display: flex;
     width: 666px;
     gap: 14px;
+
+    img {
+        height: 36px;
+        width: 36px;
+    }
 }
 
-.social-media img{
-    height: 36px;
-    width: 36px;
-}
-
-#educainvest{
+#educainvest {
     margin-top: 77px;
     background-color: #F6F6F6;
     height: 699px;
@@ -177,13 +199,14 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    h1 {
+        font-weight: 600;
+    }
 }
 
-#educainvest h1{
-    font-weight: 600;
-}
+.bggradient {
 
-.bggradient{
     width: 1142px;
     height: 429px;
     margin-top: 70px;
@@ -193,38 +216,38 @@ header {
     gap: 78px;
     border-radius: 20px;
     background: #1b6fe3;
-    background: linear-gradient(135deg, rgba(27,111,227,1) 0%, rgba(7,93,211,1) 24%, rgba(0,79,187,1) 100%);
+    background: linear-gradient(135deg, rgba(27, 111, 227, 1) 0%, rgba(7, 93, 211, 1) 24%, rgba(0, 79, 187, 1) 100%);
+
+    img {
+        height: 243px;
+        width: 463px;
+    }
+
+    p {
+        width: 418px;
+        color: white;
+        font-size: 25px;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    button {
+        width: 160px;
+        height: 50px;
+        border-radius: 27px;
+        border-style: none;
+        color: #075DD3;
+        font-weight: 600;
+        font-size: 18px;
+        display: inline;
+        float: right;
+        margin-top: 14px;
+    }
 }
 
-.bggradient img{
-    height: 243px;
-    width: 463px;
-}
-
-.bggradient p{
-    width: 418px;
-    color: white;
-    font-size: 25px;
-}
-
-.bggradient h3{
-    color: white;
-}
-
-.bggradient button{
-    width: 160px;
-    height: 50px;
-    border-radius: 27px;
-    border-style: none;
-    color: #075DD3;
-    font-weight: 600;
-    font-size: 18px;
-    display: inline;
-    float: right;
-    margin-top: 14px;
-}
-
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,13 +255,13 @@ footer{
     background-color: #F8C330;
     height: 285px;
     text-align: center;
+
+    h1 {
+        font-weight: 600;
+    }
 }
 
-footer h1{
-    font-weight: 600;
-}
-
-ul img{
+ul img {
     width: 22px;
     margin-right: 10px;
 }
